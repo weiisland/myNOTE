@@ -1,0 +1,77 @@
+\documentclass{ctexart}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{amssymb}
+\usepackage{xcolor}
+\begin{document}
+	\section{极限}
+	\subsection{有界序列与无穷小序列}
+	
+	从自然数集N到实数集R的一个映射：
+	
+	\[x: N \to R\]
+	
+	相当于用自然数编号的一串实数
+	
+	\[x_1 = x(1), x_2 = x(2),...,x_n=x(n),...\]
+	
+	这样的一个映射，或者说这样的用自然数编号的一串实数\(\{x_n\}\)，称为是一个实数序列
+	
+	1.有界序列
+	
+	\textbf{定义1：}设\(\{x_n\}\)是一个实数序列
+	
+	（1）如果存在\(M \in R\)使得：
+	
+	\[x_n \leq M, \forall n \in N\]
+	
+	就说序列\(\{x_n\}\)有上界，实数M是它的一个上界；
+	
+	（2）如果存在\(m \in R\)使得：
+	
+	\[x_n \geq m, \forall n \in N\]
+	
+	就说序列\(\{x_n\}\)有下界，实数m是它的一个下界；
+	
+	（3）如果序列\(\{x_n\}\)有上界也有下界，就说序列有界。
+	
+	序列设\(\{x_n\}\)有界的充分必要条件是：存在\(K \in R\)使得
+	
+	\[|x_n| \leq K, \forall n \in N\]
+	
+	例1:序列\(x_n=\frac{n+1}{n},(n=1,2,...)\)是有界的，
+	
+	\[\because |x_n|=|\frac{n+1}{n}| \leq |\frac{n+n}{n}| = 2, \forall n \in N\]
+	
+	例2：序列\(x_n=(1+\frac{1}{n})^n,(n=1,2,...)\)是有界的，因为
+	
+	\begin{align*}
+	0 < x_n &= 1+n\frac{1}{n}+\frac{n(n-1)}{2!}\frac{1}{n^2}+\frac{n(n-1)(n-2)}{3!}\frac{1}{n^3} \\
+	& +····+\frac{n(n-1)···(n-k+1)}{k!}\frac{1}{n^k}+···+\frac{1}{n^n} \\
+	&= 1+1+\frac{1}{2!}(1-\frac{1}{n})+\frac{1}{3!}(1-\frac{1}{n})(1-\frac{2}{n}) \\
+	&+···+\frac{1}{k!}(1-\frac{1}{n})···(1-\frac{k-1}{n})+···+\frac{1}{n!}(1-\frac{1}{n})···(1-\frac{n-1}{n}) \\
+	&\leq 1+1+\frac{1}{2!}+\frac{1}{3!}+···+\frac{1}{k!}+···+\frac{1}{n!} \\
+	& \leq 1+1+\frac{1}{2}+\frac{1}{2^2}+···+\frac{1}{2^{k-1}}+····+\frac{1}{2^{n-1}} \\
+	&= 1+\frac{1-(\frac{1}{2})^n}{1-\frac{1}{2}} < 1+\frac{1}{1-\frac{1}{2}} = 3 \\
+	\end{align*}
+	
+	\textbf{注意：}\(\frac{1}{n^n} = \frac{1}{n!}(1-\frac{1}{n})···(1-\frac{n-1}{n})\)
+	
+	例3：考察序列
+	
+	\[x_n=1+1/2+···+1/n, n=1,2,...\]
+	
+	证明这个序列无界。事实上，对任意自然数,只要取\(n=2^{2N}\)，就有
+	
+	\begin{align*}
+	x_n &= 1+\frac{1}{2}+(\frac{1}{3}+\frac{1}{4})+(\frac{1}{5}+\frac{1}{6}+\frac{1}{7}+\frac{1}{8})+···+(\frac{1}{2^{k-1}+1}+···+\frac{1}{2^k}) \\
+	&+···+(\frac{1}{2^{2N-1}+1}+···+\frac{1}{2^{2N}}) \\
+	& > 1+\frac{1}{2}+4\frac{1}{2^3}+···+2^{k-1}\frac{1}{2^k}+···+2^{2N-1}\frac{1}{2^{2N}} \\
+	& > \frac{1}{2}+\frac{1}{2}+···+\frac{1}{2} = 2N\frac{1}{2}=N\\
+	\end{align*}
+	
+	
+	
+\end{document}

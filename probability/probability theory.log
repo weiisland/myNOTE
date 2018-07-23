@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.27)  14 JUN 2018 20:17
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.27)  28 JUN 2018 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1380,7 +1380,7 @@ able
 [1
 
 ] [2] [3]
-Overfull \hbox (8.33691pt too wide) in paragraph at lines 124--125
+Overfull \hbox (8.33691pt too wide) in paragraph at lines 128--129
 []\TU/STSong(0)/m/n/10.53937 设 $\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X
 []; X[]\OT1/cmr/m/n/10.53937 )$ \TU/STSong(0)/m/n/10.53937 为 一 个 二 维 离 散 随 机 向 
 量，| $\OML/cmm/m/it/10.53937 X[]$ \TU/STSong(0)/m/n/10.53937 的 全 部 可 能 取 值 为 $\O
@@ -1389,14 +1389,14 @@ ML/cmm/m/it/10.53937 a[]; a[]; :::$\TU/lmr/m/n/10.53937 ;$\OML/cmm/m/it/10.5393
  []
 
 [4] [5]
-Overfull \hbox (11.47318pt too wide) in paragraph at lines 199--200
+Overfull \hbox (11.47318pt too wide) in paragraph at lines 203--204
 []\TU/STSong(0)/m/n/10.53937 已 知 某 个 或 某 些 随 机 变 量 $\OML/cmm/m/it/10.53937 X[];
  :::; X[]$ \TU/STSong(0)/m/n/10.53937 的 分 布，|  另 有 一 些 随 机 变 量 $\OML/cmm/m/it/1
 0.53937 Y[]; :::; Y[]$\TU/STSong(0)/m/n/10.53937 ，|
  []
 
-[6] [7] [8] [9]
-Overfull \hbox (11.37686pt too wide) in paragraph at lines 338--339
+[6] [7] [8] [9] [10]
+Overfull \hbox (11.37686pt too wide) in paragraph at lines 342--343
 \OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; ^^R\
 OT1/cmr/m/n/10.53937 )[][][]\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML
 /cmm/m/it/10.53937 X[]; ^^R\OT1/cmr/m/n/10.53937 )$\TU/lmr/m/n/10.53937 . \TU/S
@@ -1406,11 +1406,10 @@ m/n/10.53937 值 时 $\OML/cmm/m/it/10.53937 X[]; :::; X[]$ \TU/STSong(0)/m/n/10
 ^R; X[]; ::; X[]\OT1/cmr/m/n/10.53937 )$
  []
 
-[10]
 File: pic/bayes_estimation.png Graphic file (type bmp)
 <pic/bayes_estimation.png>
 
-Overfull \hbox (9.91841pt too wide) in paragraph at lines 364--365
+Overfull \hbox (9.91841pt too wide) in paragraph at lines 368--369
 []\TU/STSong(0)/m/n/10.53937 引 进 $\OML/cmm/m/it/10.53937 X[] \OT1/cmr/m/n/10.53
 937 = 1\OML/cmm/m/it/10.53937 ; X[] \OT1/cmr/m/n/10.53937 = 0$\TU/lmr/m/n/10.53
 937 , \TU/STSong(0)/m/n/10.53937 视 第 \TU/lmr/m/n/10.53937 i \TU/STSong(0)/m/n/1
@@ -1424,7 +1423,7 @@ Overfull \hbox (9.91841pt too wide) in paragraph at lines 364--365
 File: pic/prior_and_posterior.png Graphic file (type bmp)
 <pic/prior_and_posterior.png>
 
-Overfull \hbox (21.07874pt too wide) in paragraph at lines 403--404
+Overfull \hbox (21.07874pt too wide) in paragraph at lines 407--408
 [][] 
  []
 
@@ -1460,8 +1459,8 @@ Overfull \hbox (21.07874pt too wide) in paragraph at lines 403--404
 . - 'normal' (m/n) with NFSS spec.: <->"STFangsong/OT"
 . - 'small caps'  (m/sc) with NFSS spec.: 
 .................................................
-[13]
-Overfull \hbox (21.98236pt too wide) in paragraph at lines 446--447
+[13] [14]
+Overfull \hbox (21.98236pt too wide) in paragraph at lines 450--451
 []\TU/STSong(0)/m/n/10.53937 而 且 这 对 $\OML/cmm/m/it/10.53937 ^^R[]; :::; ^^R[]$
  \TU/STSong(0)/m/n/10.53937 一 切 可 能 取 的 值 都 成 立，|  则 称 $\OML/cmm/m/it/10.53937 
 T\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; :::; X[]\OT1/cmr/m/n/10.539
@@ -1469,8 +1468,8 @@ T\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; :::; X[]\OT1/cmr/m/n/10.539
 37 (\OML/cmm/m/it/10.53937 ^^R[]; :::; ^^R[]\OT1/cmr/m/n/10.53937 )$
  []
 
-[14]
-Overfull \hbox (28.98985pt too wide) in paragraph at lines 456--457
+
+Overfull \hbox (28.98985pt too wide) in paragraph at lines 460--461
 \OT1/cmr/m/n/10.53937 [[]\OML/cmm/m/it/10.53937 ; []\OT1/cmr/m/n/10.53937 ]$\TU
 /STSong(0)/m/n/10.53937 。|  一 旦 有 了 样 本 $\OML/cmm/m/it/10.53937 X[]; :::; X[]$\
 TU/lmr/m/n/10.53937 , \TU/STSong(0)/m/n/10.53937 就 把 $\OML/cmm/m/it/10.53937 ^^
@@ -1481,7 +1480,7 @@ cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 X[]; :::; X[]\OT1/cmr/m/n/10.53937 )]$
  []
 
 
-Overfull \hbox (28.5501pt too wide) in paragraph at lines 458--459
+Overfull \hbox (28.5501pt too wide) in paragraph at lines 462--463
 []\TU/lmr/m/n/10.53937 1.$\OML/cmm/m/it/10.53937 ^^R$ \TU/STSong(0)/m/n/10.5393
 7 要 以 很 大 的 可 能 性 落 在 区 间 $\OT1/cmr/m/n/10.53937 [[]\OML/cmm/m/it/10.53937 ; []
 \OT1/cmr/m/n/10.53937 ]$ \TU/STSong(0)/m/n/10.53937 内，|  也 就 是 说，|  概 率 $\OML/c
@@ -1490,7 +1489,7 @@ X[]\OT1/cmr/m/n/10.53937 ) \OMS/cmsy/m/n/10.53937 ^^T
  []
 
 
-Overfull \hbox (43.47952pt too wide) in paragraph at lines 462--463
+Overfull \hbox (43.47952pt too wide) in paragraph at lines 466--467
 []\TU/STSong(0)/bx/n/10.53937 定 义：|  \TU/STSong(0)/m/n/10.53937 给 定 一 个 很 小 的 数
  $\OML/cmm/m/it/10.53937 ^^K > \OT1/cmr/m/n/10.53937 0$\TU/STSong(0)/m/n/10.539
 37 。|  如 果 对 参 数 $\OML/cmm/m/it/10.53937 ^^R$ \TU/STSong(0)/m/n/10.53937 的 任 何 
@@ -1498,10 +1497,11 @@ Overfull \hbox (43.47952pt too wide) in paragraph at lines 462--463
 53937 X[]; :::; X[]\OT1/cmr/m/n/10.53937 ) \OMS/cmsy/m/n/10.53937 ^^T
  []
 
+[15]
 File: pic/beta.png Graphic file (type bmp)
 <pic/beta.png>
-[15] [16]
-Overfull \hbox (26.62761pt too wide) in paragraph at lines 521--522
+ [16]
+Overfull \hbox (26.62761pt too wide) in paragraph at lines 525--526
 []\TU/STSong(0)/m/n/10.53937 在 有 了 先 验 分 布 密 度 $\OML/cmm/m/it/10.53937 h\OT1/cm
 r/m/n/10.53937 (\OML/cmm/m/it/10.53937 ^^R\OT1/cmr/m/n/10.53937 )$ \TU/STSong(0
 )/m/n/10.53937 和 样 本 $\OML/cmm/m/it/10.53937 X[]; :::; X[]$ \TU/STSong(0)/m/n/1
@@ -1510,15 +1510,16 @@ mm/m/it/10.53937 ^^R\OMS/cmsy/m/n/10.53937 j\OML/cmm/m/it/10.53937 X[]; ::; X[]
 \OT1/cmr/m/n/10.53937 )$\TU/STSong(0)/m/n/10.53937 ，|
  []
 
+[17]
 File: pic/statistics_data_mining_dict.png Graphic file (type bmp)
 <pic/statistics_data_mining_dict.png>
-[17] [18] [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
+ [18] [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
  [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
  (./probability theory.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 628.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 635.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
 Package rerunfilecheck Info: File `"probability theory".out' has not changed.
 (rerunfilecheck)             Checksum: .
 
@@ -1526,15 +1527,15 @@ Package rerunfilecheck Info: File `"probability theory".out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 628.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 635.
  ) 
 Here is how much of TeX's memory you used:
  23115 strings out of 492970
  480853 string characters out of 6133938
- 545009 words of memory out of 5000000
+ 544277 words of memory out of 5000000
  26933 multiletter control sequences out of 15000+600000
  532492 words of font info for 50 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 53i,9n,67p,10447b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,9n,67p,10447b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on probability theory.pdf (20 pages).

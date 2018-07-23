@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LayerIndex</key>
+	<integer>1</integer>
+	<key>Layers</key>
+	<array>
+		<dict>
+			<key>CompositingMode</key>
+			<integer>0</integer>
+			<key>File</key>
+			<string>Layer~0.png</string>
+			<key>Hidden</key>
+			<false/>
+			<key>Opacity</key>
+			<real>100</real>
+		</dict>
+		<dict>
+			<key>CompositingMode</key>
+			<integer>0</integer>
+			<key>File</key>
+			<string>Layer~1.png</string>
+			<key>Hidden</key>
+			<false/>
+			<key>Opacity</key>
+			<real>100</real>
+		</dict>
+	</array>
+	<key>Orientation</key>
+	<integer>1</integer>
+	<key>Paper</key>
+	<string>smallgrain</string>
+	<key>PaperColor</key>
+	<array>
+		<real>255</real>
+		<real>255</real>
+		<real>255</real>
+		<real>255</real>
+	</array>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>marker</key>
+	<integer>1</integer>
+</dict>
+</plist>

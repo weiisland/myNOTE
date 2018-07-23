@@ -1,0 +1,82 @@
+\documentclass{ctexart}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{amssymb}
+\begin{document}
+	\section{分析基础}
+	\subsection{实数公理、确界、不等式}
+	
+	1.1.1 解：
+	
+	\[\because \max\{|a+b|, |a-b|\} < 1/2\]
+	
+	\[\therefore |a+b| < 1/2, |a-b| < 1/2\]
+	
+	\[|a+b+a-b| \leq |a+b|+|a-b|<1  \therefore 2|a| < 1, |a|<1/2\]
+	
+	同理
+	
+	\[\therefore |a+b| < 1/2, |b-a| < 1/2\]
+	
+	\[|a+b+b-a|\leq|a+b|+|b-a|<1  \therefore 2|b| < 1, |b|<1/2\]
+	
+	1.1.2解：
+	
+	若\(|1-b| \geq 1/2\),结论\(\max\{|a+b|, |a-b|, |1-b|\} \geq 1/2\)显然成立
+	
+	若\(|1-b| < 1/2\),可知\(1/2 < b < 3/2\), 使用反证法，假设\(\max\{|a+b|, |a-b|\} < 1/2\),根据上题的结论，此时\(|b|<1/2\)，不符合
+	
+	\[\therefore \max\{|a+b|, |a-b|\} \geq 1/2\]
+	
+	1.1.3解：
+	
+	1.若\(a > b\),则
+	
+	\[\max\{a,b\}=\frac{a+b}{2}+\frac{|a-b|}{2}=\frac{a+b+a-b}{2}=a\]
+	
+	\[\min\{a,b\}=\frac{a+b}{2}-\frac{|a-b|}{2}=\frac{a+b-a+b}{2}=b\]
+	
+	2.若\(a < b\),则
+	
+	\[\max\{a,b\}=\frac{a+b}{2}+\frac{|a-b|}{2}=\frac{a+b-a+b}{2}=b\]
+	
+	\[\min\{a,b\}=\frac{a+b}{2}-\frac{|a-b|}{2}=\frac{a+b+a-b}{2}=a\]
+	
+	视\(\max\{a,b\},\min\{a,b\}\)为未知数，建立方程组
+	
+	\[\begin{dcases}
+	\max\{a,b\} + \min\{a,b\} = a+b \\
+	\max\{a,b\} - \min\{a,b\} = |a-b|
+	\end{dcases}\]
+	
+	1.1.4解：
+	
+	\[f(x) \leq \sup_{x \in X}f(x), f(y) \leq \sup_{x \in X}f(x)\]
+	
+	\[f(x) \geq \inf_{x \in X}f(x), f(y) \geq \inf_{x \in X}f(x\]
+	
+	\[f(x)-f(y) \leq \sup_{x \in X}-\inf_{x \in X}f(x)\]
+	
+	或者
+	
+	\[f(y)-f(x) \leq \sup_{x \in X}-\inf_{x \in X}f(x)\]
+	
+	即
+	
+	\[|f(x)-f(y)| \leq \sup_{x \in X}-\inf_{x \in X}f(x), \forall x,y \in X\]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
