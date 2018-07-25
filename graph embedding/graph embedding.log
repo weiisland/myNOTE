@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.25)  25 JUL 2018 03:00
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.25)  25 JUL 2018 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,24 +1361,41 @@ Overfull \hbox (0.16685pt too wide) in paragraph at lines 20--21
  maximum liklihood models, prob-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 34.
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
+(Font)              size <10.95> substituted on input line 34.
+
+
+Overfull \hbox (1.11592pt too wide) in paragraph at lines 34--35
+[]\TU/lmr/bx/n/10.53937 definition 1: \TU/lmr/m/n/10.53937 (graph) A graph G(V,
+ E)is a collection of $\OML/cmm/m/it/10.53937 V \OT1/cmr/m/n/10.53937 = \OMS/cm
+sy/m/n/10.53937 f\OML/cmm/m/it/10.53937 v[]; ; ; ; v[]\OMS/cmsy/m/n/10.53937 g$
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 34.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./graph embedding.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 34.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 34.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `"graph embedding".out' has not changed.
 (rerunfilecheck)             Checksum: .
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 34.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 23631 strings out of 492969
- 471414 string characters out of 6133923
- 539591 words of memory out of 5000000
- 27478 multiletter control sequences out of 15000+600000
- 532916 words of font info for 40 fonts, out of 8000000 for 9000
+ 23645 strings out of 492969
+ 471716 string characters out of 6133923
+ 541702 words of memory out of 5000000
+ 27487 multiletter control sequences out of 15000+600000
+ 534526 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,5n,74p,379b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
